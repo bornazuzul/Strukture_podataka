@@ -1,0 +1,3 @@
+﻿  vjezba1.c
+C:\Users\borna\OneDrive\Radna površina\StrukturePodataka\Strukture_podataka\vjezbe1\vjezbe1\vjezba1.c(52,14): warning C4477: 'fscanf' : format string '%lf' requires an argument of type 'double *', but variadic argument 3 has type 'int *'
+  vjezbe1.vcxproj -> C:\Users\borna\OneDrive\Radna površina\StrukturePodataka\Strukture_podataka\vjezbe1\x64\Debug\vjezbe1.exe
