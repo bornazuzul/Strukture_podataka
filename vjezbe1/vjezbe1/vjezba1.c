@@ -13,7 +13,7 @@ relatvan_br_bodova = br_bodova/max_br_bodova*100
 typedef struct {
 	char ime[20];
 	char prezime[20];
-	int bodovi;
+	double bodovi;
 }student;
 
 int brojStudenata() {
@@ -58,13 +58,13 @@ student* alokacijaMemorijeCitanje(int brojStd){
 	return studenti;
 }
 
-int brojBodova(int bodovi) {
-	return bodovi / 20 * 100;
+double brojBodova(int bodovi) {
+	return bodovi / 15 * 100;
 }
 
 void ispis(student* studenti, int brojStudenata) {
 	for (int i = 0; i < brojStudenata; i++) {
-		printf("\nIme studenta: %s\nPrezime studenta: %s\nBroj bodova: %d", studenti[i].ime, studenti[i].prezime, brojBodova(studenti[i].bodovi));
+		printf("\nIme studenta: %s\nPrezime studenta: %s\nBroj bodova: %.2lf", studenti[i].ime, studenti[i].prezime, brojBodova(studenti[i].bodovi));
 	}
 }
 
