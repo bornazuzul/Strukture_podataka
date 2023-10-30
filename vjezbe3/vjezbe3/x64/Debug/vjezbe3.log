@@ -1,0 +1,4 @@
+﻿  vjezbe3.c
+C:\Users\borna\OneDrive\Radna površina\StrukturePodataka\Strukture_podataka\vjezbe3\vjezbe3\vjezbe3.c(252): warning C4715: 'upisUDatoteku': not all control paths return a value
+C:\Users\borna\OneDrive\Radna površina\StrukturePodataka\Strukture_podataka\vjezbe3\vjezbe3\vjezbe3.c(267): warning C4715: 'ispisIzDatoteke': not all control paths return a value
+  vjezbe3.vcxproj -> C:\Users\borna\OneDrive\Radna površina\StrukturePodataka\Strukture_podataka\vjezbe3\x64\Debug\vjezbe3.exe
