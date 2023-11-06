@@ -1,0 +1,3 @@
+﻿  vjezbe4.c
+C:\Users\borna\OneDrive\Radna površina\StrukturePodataka\Strukture_podataka\vjezbe4\vjezbe4\vjezbe4.c(52,7): warning C4047: 'initializing': 'char' differs in levels of indirection from 'char [1]'
+  vjezbe4.vcxproj -> C:\Users\borna\OneDrive\Radna površina\StrukturePodataka\Strukture_podataka\vjezbe4\x64\Debug\vjezbe4.exe
