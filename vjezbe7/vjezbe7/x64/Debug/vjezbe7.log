@@ -1,0 +1,5 @@
+﻿  vjezbe7.c
+C:\Users\borna\OneDrive\Radna površina\StrukturePodataka\Strukture_podataka\vjezbe7\vjezbe7\vjezbe7.c(65,13): warning C4013: 'listSubdirectories' undefined; assuming extern returning int
+C:\Users\borna\OneDrive\Radna površina\StrukturePodataka\Strukture_podataka\vjezbe7\vjezbe7\vjezbe7.c(107,20): warning C4133: 'function': incompatible types - from 'PositionDirectory' to 'const char *'
+C:\Users\borna\OneDrive\Radna površina\StrukturePodataka\Strukture_podataka\vjezbe7\vjezbe7\vjezbe7.c(119,16): warning C4477: 'printf' : format string '%s' requires an argument of type 'char *', but variadic argument 1 has type 'PositionDirectory'
+  vjezbe7.vcxproj -> C:\Users\borna\OneDrive\Radna površina\StrukturePodataka\Strukture_podataka\vjezbe7\x64\Debug\vjezbe7.exe

@@ -30,6 +30,7 @@ int unosPrijeElementa(Position p, char* prezime);
 int Sort(Position p);
 int upisUDatoteku(Position p);
 int ispisIzDatoteke();
+int brisanjeListe(Position p);
 
 
 int main()
@@ -71,6 +72,10 @@ int main()
 	Sort(&Head);
 	PrintList(Head.next);
 	upisUDatoteku(Head.next);
+
+	/*brisanjeListe(&Head);
+	PrintList(Head.next);*/
+
 	return 0;
 }
 
@@ -262,3 +267,19 @@ int ispisIzDatoteke() {
 	}
 	fclose(filePointer);
 }
+
+int brisanjeListe(Position p) {
+	Position q;
+	while (p->next != NULL) {
+		q = p->next;
+		p->next = q->next;
+		free(q);
+	}
+}
+
+
+
+
+
+
+
